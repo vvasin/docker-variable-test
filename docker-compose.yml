@@ -1,0 +1,7 @@
+version: "2"
+services:
+  test:
+    build: .
+    image: variable-test
+    environment:
+      - VARIABLE=${VARIABLE}
